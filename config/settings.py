@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "phone_field",
 ]
 
 MIDDLEWARE = [
@@ -121,8 +122,6 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 # Отвечает за формирование адреса доступа к статике
-STATIC_URL = 'static/'
+STATIC_URL = "static/"
 # Отвечает за место на диске, откуда необходимо подгружать статику
-STATICFILES_DIRS = (
-    BASE_DIR / 'static',
-)
+STATICFILES_DIRS = (BASE_DIR / "static",)
